@@ -191,12 +191,12 @@ replace the below line in head with yours
 </PATH/TO/FILE>
 ```
 ```
-src="//cdn.jsdelivr.net/combine/gh/jquery/jquery/dist/jquery.min.js,gh/<USERNAME>/<REPOSITORY>@<VERSION or HASH>/PATH/TO/FILE.js"
+src="//corsapi.aaronlam.xyz/cdn.jsdelivr.net/combine/gh/jquery/jquery/dist/jquery.min.js,gh/<USERNAME>/<REPOSITORY>@<VERSION or HASH>/PATH/TO/FILE.js"
 ```
 Example :
 
 ```
-src="//cdn.jsdelivr.net/combine/gh/jquery/jquery/dist/jquery.min.js,gh/alx-xlx/goindex@${authConfig.hash}/themes/${authConfig.theme}/app.js"
+src="//corsapi.aaronlam.xyz/cdn.jsdelivr.net/combine/gh/jquery/jquery/dist/jquery.min.js,gh/aaronlam/goindex@${authConfig.hash}/themes/${authConfig.theme}/app.js"
 ```
 
 ## Change Icons
