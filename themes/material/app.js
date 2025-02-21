@@ -1,7 +1,7 @@
 // 在head 中 加载 必要静态
-document.write('<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/mdui@0.4.3/dist/css/mdui.min.css">');
+document.write('<link rel="stylesheet" href="//corsapi.aaronlam.xyz/cdn.jsdelivr.net/npm/mdui@0.4.3/dist/css/mdui.min.css">');
 // markdown支持
-document.write('<script src="//cdn.jsdelivr.net/npm/markdown-it@10.0.0/dist/markdown-it.min.js"></script>');
+document.write('<script src="//corsapi.aaronlam.xyz/cdn.jsdelivr.net/npm/markdown-it@10.0.0/dist/markdown-it.min.js"></script>');
 document.write(`<style>.mdui-appbar .mdui-toolbar{height:56px;font-size:1pc}
 .mdui-toolbar>*{padding:0 6px;margin:0 2px}
 .mdui-toolbar>i{opacity:.5}.mdui-toolbar>.mdui-typo-headline{padding:0 1pc 0 0}
@@ -402,7 +402,7 @@ String.prototype.trim = function (char) {
 // README.md HEAD.md 支持
 function markdown(el, data){
     if(window.md == undefined){
-        //$.getScript('https://cdn.jsdelivr.net/npm/markdown-it@10.0.0/dist/markdown-it.min.js',function(){
+        //$.getScript('https://corsapi.aaronlam.xyz/cdn.jsdelivr.net/npm/markdown-it@10.0.0/dist/markdown-it.min.js',function(){
         window.md = window.markdownit();
         markdown(el, data);
         //});
